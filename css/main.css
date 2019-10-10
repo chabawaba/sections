@@ -1,32 +1,51 @@
 html {
   background-color: #eee9de;
   line-height: 1.5rem;
-  font: "Lato" regular bold;
   color: #333;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 1.5rem;
 }
 
 div {
-  padding: .4em, .75em, .5em
-  display: in
-  max-width: 25em
+  padding: .5em;
+  display: inline-block;
+  max-width: 25em;
   margin: 1.5rem;
+  text-align: left;
 }
 
 p {
-  padding: .4em, .75em, .5em;
+  padding: .5em;
+  text-align: left;
+  font-family: Lato, sans-serif;
+  font-style: normal;
 }
 
 img {
-  width: auto;
-  padding: .4em, .75em, .5em;
+  display: block;
+  width: 100%;
+  padding: .5em;
   margin: 1.5rem;
 }
 
-a: {
+.btn {
   color: #666;
   display: inline-block;
-  padding: .4em, .75em, .5em;
+  padding: .5em;
   border-radius: .4em;
-  border-style: solid, #333;
+  border-style: solid;
   margin: 1.5rem;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-style: normal;
 }
