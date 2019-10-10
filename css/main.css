@@ -1,30 +1,32 @@
 html {
-background-color: #eee9de;
-line-height: 1.5rem;
-font: "Lato" regular bold;
+  background-color: #eee9de;
+  line-height: 1.5rem;
+  font: "Lato" regular bold;
+  color: #333;
 }
 
 div {
-padding: .4em, .75em, .5em
-display: in
-max-width: 25em
-margin: 1.5rem;
+  padding: .4em, .75em, .5em
+  display: in
+  max-width: 25em
+  margin: 1.5rem;
 }
 
 p {
-padding: .4em, .75em, .5em;
+  padding: .4em, .75em, .5em;
 }
 
 img {
-width: auto;
-padding: .4em, .75em, .5em;
-margin: 1.5rem;
+  width: auto;
+  padding: .4em, .75em, .5em;
+  margin: 1.5rem;
 }
 
 a: {
-display: inline-block;
-padding: .4em, .75em, .5em;
-border-radius: .4em;
-border-style: solid, #333;
-margin: 1.5rem;
+  color: #666;
+  display: inline-block;
+  padding: .4em, .75em, .5em;
+  border-radius: .4em;
+  border-style: solid, #333;
+  margin: 1.5rem;
 }
